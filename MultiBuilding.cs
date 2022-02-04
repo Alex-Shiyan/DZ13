@@ -33,7 +33,6 @@ namespace DZ13
             get { return level; }
             set
             {
-                if (value < 0) { level = 0; }
                 else { level = value; }
             }
         }

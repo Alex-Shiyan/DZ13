@@ -38,10 +38,13 @@ namespace DZ13
         {
             get { return address; }
             set { address = value; }
-        }
+                }
         int length;
         public int Length
 
+        }
+        float length;
+        public float Length
         {
             
             set
@@ -55,7 +58,7 @@ namespace DZ13
         public int Width
         {
             get { return width; }
-            set 
+            set
             {
                 if (value < 0) {width = 0; }
                 else { width = value; }
